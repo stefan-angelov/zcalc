@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Zdravko calc</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Z calc</h1>
+        <form onsubmit="return handler(event, this);">
+            <input type="text" name="input" placeholder="Enter value">
+            <div>
+                <label for="radio1">Table : </label>
+                <input type="radio" name="tables" value="chart1" id="radio1" checked="true">
+                <label for="radio2">New table : </label>
+                <input type="radio" name="tables" value="chart2" id="radio2">
+            </div>
+            <input type="submit" name="submit" value="Calc it">
+        </form>
+        <p>Output :  <span id="output"></span></p>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>

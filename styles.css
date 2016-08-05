@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+form > input {
+    width: 100%;
+    display: block;
+    font-size: 25px;
+}
+form > input[type="submit"] {
+    width: 35%;
+    margin: 0 auto;
+}
+div {
+    margin: 20px auto;
+    text-align: center;
+}
+p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 25px;
+}
